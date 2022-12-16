@@ -3,7 +3,7 @@
 
 ## Hardware Core Infra
 - Virtualization
-- #Servers for App hosting (except DB)
+- Number of Servers for App hosting (except DB)
 - CPU
 - Memory
 - Disks
@@ -29,7 +29,7 @@
 
 ## Data & AI
 - RDBMS / NoSQL (Software vendor)
-- #Servers
+- Number of Servers
 - SOA (Kafka, RabbitMQ, MQ Series)
 - File Server (size)
 - Cache
@@ -64,7 +64,7 @@
 - DB Size
 - DB Increase
 - Transations / RPS
-- # of Messages, calls, requests / days/month/year
+- Number of Messages, calls, requests / days/month/year
 - Other / Misc
 
 ## Project Management
