@@ -1,3 +1,3 @@
 # ApplicationAssessment
 
-[./assessment-checklist.md](The Pragmatic checklist to assess an application)
+[The Pragmatic checklist to assess an application](./assessment-checklist.md)
