@@ -19,4 +19,8 @@ Available in the following formats:
 
 1. Run `make build`
 
+### Test the Python code
+
+1. Run `make py-test`
+
 ## [Licence](LICENSE)

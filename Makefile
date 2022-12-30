@@ -3,3 +3,6 @@ install:
 
 build:
 	python ci/build.py
+
+py-test:
+	black ci/
