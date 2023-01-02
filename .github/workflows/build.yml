@@ -12,8 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: make install
-        working-directory: ci
       - run: make build
-        working-directory: ci
       
       
