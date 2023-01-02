@@ -1,0 +1,19 @@
+name: Generate artifacts
+
+on:
+  push:
+    paths:
+      - 'src/**.md'
+  workflow_dispatch:
+
+jobs:
+  generateFiles:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: make install
+        working-directory: ci
+      - run: make build
+        working-directory: ci
+      
+      
