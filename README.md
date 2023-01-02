@@ -25,7 +25,7 @@ Available in the following formats:
 1. Run `make py-test`
 
 ## [Licence](LICENSE)
-=======
+
 # The Pragmatic checklist to assess an application
 
 When you plan to modernize an application, there are several questions to ask yourself/your customer to apprehend when the modernization would bring value.
