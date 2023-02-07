@@ -41,7 +41,7 @@
 | Infrastructure | Identity Management for Internal users | | | |
 | Infrastructure | Infra Monitoring | | | |
 | Infrastructure | Other / Misc | | | |
-| Data & AI | #Servers | | | |
+| Data & AI | # of Servers | | | |
 | Data & AI | AI | | | |
 | Data & AI | Analytics | | | |
 | Data & AI | Cache | | | |

@@ -1,6 +1,6 @@
 | Theme                   | Item                                                                              | Description   | Existing Value   | Desired State   |
 |:------------------------|:----------------------------------------------------------------------------------|:--------------|:-----------------|:----------------|
-| Data & AI               | #Servers                                                                          |               |                  |                 |
+| Data & AI               | # of Servers                                                                      |               |                  |                 |
 | Data & AI               | AI                                                                                |               |                  |                 |
 | Data & AI               | Analytics                                                                         |               |                  |                 |
 | Data & AI               | Cache                                                                             |               |                  |                 |

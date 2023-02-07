@@ -1,0 +1,25 @@
+name: Generate artifacts
+
+on:
+  push:
+    paths:
+      - 'src/**.md'
+  workflow_dispatch:
+
+jobs:
+  generateFiles:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' 
+      - run: make install
+      - run: make build
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v4.2.3
+        with:
+          title: 'Automatic generation of artifacts'
+          body: 'New files have been generated'
+      
+      
