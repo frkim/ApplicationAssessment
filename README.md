@@ -1,5 +1,10 @@
+# The Pragmatic checklist to assess an application
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+When you plan to modernize an application, there are several questions to ask yourself/your customer to apprehend when the modernization would bring value.
+
+This is a draft of potential questions you should take into consideration when doing an assessment.
 
 ## The assessment
 
@@ -9,7 +14,17 @@ Available in the following formats:
 - [Excel](dest/Application%20Assessment.xlsx)
 - [CSV](dest/Application%20Assessment.csv)
 
-## Development
+
+![The checklist](media/screenshot.png)
+
+
+## How to contribute
+
+You just need to [edit the source file](src/Application%20Assessment.md)
+
+## How to locally generate files
+
+If you want to see the final result locally and generate CSV & Excel files, follow this guide
 
 ### Install
 
@@ -23,18 +38,6 @@ Available in the following formats:
 ### Test the Python code
 
 1. Run `make py-test`
-
-## [Licence](LICENSE)
-
-# The Pragmatic checklist to assess an application
-
-When you plan to modernize an application, there are several questions to ask yourself/your customer to apprehend when the modernization would bring value.
-
-This is a draft of potential questions you should take into consideration when doing an assessment.
-"
-The Excel file can be downloaded [here](Application-Assessment.xlsx).
-
-![The checklist](media/screenshot.png)
 
 ## Content
 
