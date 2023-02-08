@@ -1,5 +1,46 @@
-| Theme | Item | Description | Existing Value | Desired State |
+| Area | Item | Description | Existing Value | Desired State |
 |-|-|-|-|-|
+| Overview | Application Name | | | |
+| Overview | Description | | | |
+| Overview | Type (Web/API, Mobile, Desktop, PowerApps/RIA, Office, EAI) | | | |
+| Overview | Multi-tenancy model | | | |
+| Overview | Data and compute unit segregation | | | |
+| Overview | Compute unit segregation | | | |
+| Overview | Seasonality (Activity Peaks) | | | |
+| Overview | Application exposition (internal, external, both) | | | |
+| Overview | User localization | | | |
+| Overview | External users | | | |
+| Overview | # of env. (DEV, UAT, PROD…) | | | |
+| Business Concern | Criticality | | | |
+| Business Concern | SLA | | | |
+| Business Concern | RPO / RTO | | | |
+| Business Concern | Penalties | | | |
+| Business Concern | Expected Behavior in case of failure | | | |
+| Business Concern | Restriction on specific region / countries | | | |
+| Business Concern | Compliance (PCIDSS...) | | | |
+| Business Concern | Regulatory Requirements (EU, GDPR...) | | | |
+| Business Concern | Top #3 of improvement points? Pain-points? Challenges? | | | |
+| Hardware Core Infra | #Servers for App hosting (except DB) | | | |
+| Hardware Core Infra | App Location Hosting | | | |
+| Hardware Core Infra | Container Ready | | | |
+| Hardware Core Infra | CPU | | | |
+| Hardware Core Infra | Disks | | | |
+| Hardware Core Infra | Memory | | | |
+| Hardware Core Infra | OS | | | |
+| Hardware Core Infra | Other / Misc | | | |
+| Hardware Core Infra | Virtualization | | | |
+| Network | Firewall, Load Balancer | | | |
+| Network | Network / Cloud virtual Network / Landing Zone | | | |
+| Network | Private or public Internet Endpoints | | | |
+| Network | Hybrid Connectivity (on-premises - Cloud) | | | |
+| Network | Other / Misc | | | |
+| Infrastructure | Backup | | | |
+| Infrastructure | Certificates | | | |
+| Infrastructure | DNS | | | |
+| Infrastructure | Identity Management for External users | | | |
+| Infrastructure | Identity Management for Internal users | | | |
+| Infrastructure | Infra Monitoring | | | |
+| Infrastructure | Other / Misc | | | |
 | Data & AI | # of Servers | | | |
 | Data & AI | AI | | | |
 | Data & AI | Analytics | | | |
@@ -10,55 +51,46 @@
 | Data & AI | Other / Misc | | | |
 | Data & AI | RDBMS / NoSQL (Software vendor) | | | |
 | Data & AI | SOA (Kafka, RabbitMQ, MQ Series) | | | |
-| Hardware Core Infra | #Servers for App hosting (except DB) | | | |
-| Hardware Core Infra | App Location Hosting | | | |
-| Hardware Core Infra | Container Ready | | | |
-| Hardware Core Infra | CPU | | | |
-| Hardware Core Infra | Disks | | | |
-| Hardware Core Infra | Memory | | | |
-| Hardware Core Infra | OS | | | |
-| Hardware Core Infra | Other / Misc | | | |
-| Hardware Core Infra | Virtualization | | | |
-| Infrastructure | Backup | | | |
-| Infrastructure | Certificates | | | |
-| Infrastructure | DNS | | | |
-| Infrastructure | Identity Management for External users | | | |
-| Infrastructure | Identity Management for Internal users | | | |
-| Infrastructure | Infra Monitoring | | | |
-| Infrastructure | Other / Misc | | | |
-| Metrics | # of Messages, calls, requests / days/month/year | | | |
-| Metrics | #RPS (Request per seconds) | | | |
-| Metrics | #Simultaneous users | | | |
-| Metrics | #Total Users | | | |
-| Metrics | DB Increase | | | |
-| Metrics | DB Size | | | |
-| Metrics | Other / Misc | | | |
-| Metrics | Transations / RPS | | | |
-| Network | Firewall, Load Balancer | | | |
-| Network | Network / Cloud virtual Network / Landing Zone | | | |
-| Network | Other / Misc | | | |
-| Network | Private or public Internet Endpoints | | | |
-| Project Management | Expected release cycles (i.e. updates frequency) | | | |
-| Project Management | Maintenance Ops / Operating Model | | | |
-| Project Management | Other / Misc | | | |
-| Project Management | Project Documentation (diagrams, technical specs…)Describes here the shared files | | | |
-| Project Management | Skilling Plan | | | |
-| Project Management | Software Delivery model (N/A, online/SaaS, ISV Setup…) | | | |
-| Project Management | Software methodology (DevOps, Agile, CMMI, SAFE…) | | | |
-| Project Management | Update Management (continuous/online, disconnected…) | | | |
-| Project Management | Who build? | | | |
-| Project Management | Who Run? | | | |
-| Software Services | API Management | | | |
-| Software Services | Application Performance Monitoring | | | |
-| Software Services | DevOps / DevSecOps | | | |
-| Software Services | Service Registry / Mesh | | | |
+| Data & AI | Integration Tier (ETL, Solution) | | | |
 | Software Specifications | 3rd party components | | | |
 | Software Specifications | Dependency on external solution or services (SaaS) | | | |
 | Software Specifications | Dependency on on-premises IS | | | |
 | Software Specifications | libraries (+ associated Licensing model) | | | |
 | Software Specifications | Libraries, SDK, Runtimes | | | |
 | Software Specifications | Monolith / Micro-Services | | | |
+| Software Specifications | Sticky sessions | | | |
 | Software Specifications | OSS Dependencies | | | |
 | Software Specifications | Other / Misc | | | |
 | Software Specifications | Programming Language (Front, Middle, Back, Mobile) | | | |
 | Software Specifications | Software Stack (MEAN, MERN, LAMP...) | | | |
+| Software Services | API Management | | | |
+| Software Services | Application Performance Monitoring | | | |
+| Software Services | DevOps / DevSecOps | | | |
+| Software Services | Service Registry / Mesh | | | |
+| Metrics | # of Messages, calls, requests / days/month/year | | | |
+| Metrics | #RPS (Request per seconds) | | | |
+| Metrics | #Simultaneous users | | | |
+| Metrics | #Total Users | | | |
+| Metrics | DB Increase | | | |
+| Metrics | DB Size | | | |
+| Metrics | Transations / RPS | | | |
+| Metrics | High bandwidth? | | | |
+| Metrics | Other / Misc | | | |
+| Security | Security Constraints | | | |
+| Security | Authentication/Authorization Mechanisms | | | |
+| Security | Cryptographic Algorithms (DES/3DES/AES/MD5 Hash/SHA1...) | | | |
+| Security | Key Vault Management | | | |
+| Security | VPN | | | |
+| Security | MFA, Conditional Access | | | |
+| Security | Cookies, Session Management | | | |
+| Security | Other / Misc | | | |
+| Project Management | Project Documentation (diagrams, technical specs…)Describes here the shared files | | | |
+| Project Management | Software methodology (DevOps, Agile, CMMI, SAFE…) | | | |
+| Project Management | Who build? | | | |
+| Project Management | Who Run? | | | |
+| Project Management | Maintenance Ops / Operating Model | | | |
+| Project Management | Software Delivery model (N/A, online/SaaS, ISV Setup…) | | | |
+| Project Management | Expected release cycles (i.e. updates frequency) | | | |
+| Project Management | Update Management (continuous/online, disconnected…) | | | |
+| Project Management | Skilling Plan | | | |
+| Project Management | Other / Misc | | | |

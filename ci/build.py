@@ -36,8 +36,8 @@ def main():
     data.fillna("", inplace=True)
 
     # Beautifier
-    LOG.info("Beautifier")
-    data.sort_values(by=data.columns.tolist(), inplace=True)
+    #LOG.info("Beautifier")
+    #data.sort_values(by=data.columns.tolist(), inplace=True)
 
     # Outputs
     LOG.info("Output to Excel")
