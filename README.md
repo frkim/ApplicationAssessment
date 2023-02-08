@@ -1,8 +1,8 @@
-# The Pragmatic checklist to assess an application
+# The Pragmatic Checklist to Assess an Application
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-When you plan to modernize an application, there are several questions to ask yourself/your customer to apprehend when the modernization would bring value.
+When you plan to modernize an application, there are several questions to ask yourself/your customer before starting the project.
 
 This is a draft of potential questions you should take into consideration when doing an assessment.
 
@@ -44,7 +44,7 @@ If you want to see the final result locally and generate CSV & Excel files, foll
 Here are the categories to assess
 
 - Global Information
-- Business Concerns
+- Business Concern
 - Hardware Core Infra
 - Network
 - Infrastructure
